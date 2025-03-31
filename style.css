@@ -1,0 +1,70 @@
+form {
+    background: linear-gradient(#2196f3,
+    #f44336);
+    width: 300px;
+    border-radius: 15px;
+}
+legend {
+    text-align: center;
+    color: rgb(44, 40, 40);
+    font-size: 2em;   
+}
+fieldset {
+    border: none;
+}
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+input {
+    width: 100%;
+    box-sizing: border-box;
+    color:black;
+    outline:none;
+}
+/* input:invalid {
+    border-color:red;
+} */
+
+.forgotPass{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin-bottom:5px
+
+}
+#forgot-pass {
+    text-decoration: none;
+    color:antiquewhite;
+}
+.btn {
+    background:#54B4D3;
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+    width: 100%;
+    margin:5px;
+}
+.buttons {
+    display:flex;
+    justify-content: space-around;
+   
+}
+.input_icon .icon{
+    position: absolute;
+    min-width: 30px;
+    padding: 2px; 
+    left:270px;
+    opacity:70%;
+}
+.fa-eye-slash:hover {
+    opacity: 1;
+    
+
+}
+.btn:hover {
+    background: grey;
+}
+span {
+    color:rgb(243, 63, 63);
+}

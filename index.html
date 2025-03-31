@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/60e5ba9d7a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <form>
+        <fieldset id="signIn-form" name="signIn_Details">
+            <legend>Login</legend>
+            <div class="input_icon">
+                <label for="userName">UserName<span>*</span></label>
+                <i class="fa-regular fa-user icon"></i>
+                <input type="text/email" name="userName" id="userName" required  placeholder="Type your username/email">
+            </div>
+            <div class="input_icon">
+                <label for="loginPassword">Password<span>*</span></label>
+                <i class="fa-solid fa-eye-slash icon"></i>
+                <input type="password" class="password" minlength="8" name="password" id="loginPassword" required required placeholder="Type your password">
+            </div>
+            <div class="forgotPass">
+                <a id="forgot-pass" href="#">Forgot password?</a>
+            </div>
+
+        </fieldset>
+
+        <fieldset id="signUp-form" name="signUp_Details">
+            <legend>Create Account</legend>
+            <div class="input_icon">
+                <label for="userName">UserName<span>*</span></label>
+                <i class="fa-regular fa-user icon"></i>
+                <input type="text" name="user_Name" required id="userName" placeholder="choose a username">
+            </div>
+            <div class="input_icon">
+                <label for="email">Email<span>*</span></label>
+                <i class="fa-solid fa-envelope icon"></i>
+                <input type="email" name="email" id="email" required placeholder="Enter your email">
+            </div>
+            <div class="input_icon">
+                <label for="newPassword">Password<span>*</span></label>
+                <i class="fa-solid fa-eye-slash icon"></i>
+                <input type="password" class="password" minlength="8" name="password" id="newPassword" required placeholder="create password">
+            </div>
+            <div class="input_icon">
+                <label for="confirmPassword">Confirm password<span>*</span></label>
+                <i class="fa-solid fa-eye-slash icon"></i>
+                <input type="password" class="password" minlength="8" name="password" id="confirmPassword" required placeholder="confirm password">
+            </div>
+        </fieldset>
+        <div class="buttons">
+            <button id="signIn-btn" class="btn" type="submit">Login</button>
+            <button id="signUp-btn" class="btn" type="submit">Create Account</button>
+        </div> 
+        <script src="script.js"></script>    
+    </form>
+    
+    
+</body>
+</html>
